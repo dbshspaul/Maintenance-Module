@@ -4,12 +4,6 @@ require('mongoose-double')(mongoose);
 var SchemaTypes = mongoose.Schema.Types;
 
 const schema = mongoose.Schema({
-    /*sites : [{ type: Schema.Types.ObjectId, ref: 'Site' }],
-    devices : [{ type: Schema.Types.ObjectId, ref: 'Device' }],
-    vendors : [{ type: Schema.Types.ObjectId, ref: 'Vendor' }],
-    amcContractors : [{ type: Schema.Types.ObjectId, ref: 'Contractor' }],*/
-
-
     start_date:{
         type : Date, 
         default: Date.now,
